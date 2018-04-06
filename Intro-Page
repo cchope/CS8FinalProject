@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+    <head>
+        <title> Delivery On Campus </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Clasby C., Eddie T., Stanhope N. ">
+        <meta name="description" content="Website to send orders to various organizations on campus doing snack and other food sales.">
+    </head> 
+    
+    
+    <body>
+    <ul>
+            <li><a href=".php"> The developers. </a></li>
+    </ul>
+    
+    <h1> Clubs/Organizations </h1>
+      
+        <ol>
+          <li><a href=" .php"> FeelGood </a></li>
+          <li><a href=" .php"> InterVasity </a></li>
+        </ol>
+    </body>
+</html> 
+><
