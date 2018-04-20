@@ -1,0 +1,57 @@
+<nav>
+    <ol>
+        <?php
+        print '<li class="';
+        if ($path_parts['filename'] == "index") {
+            print ' activePage ';
+        }
+        print '">';
+        print '<a href="intro-page.php">Home</a>';
+        print '</li>';
+
+        print '<li class="';
+        if ($path_parts['filename'] == "intervarsity") {
+            print ' activePage ';
+        }
+        print '">';
+        print '<a href="intervarsity.php">InterVarsity</a>';
+        print '</li>';
+
+        print '<li class="';
+        if ($path_parts['filename'] == "News") {
+            print ' activePage ';
+        }
+        print '">';
+        print '<a href=".php">News</a>';
+        print '</li>';
+
+        print '<li class="';
+        if ($path_parts['filename'] == "Contest") {
+            print ' activePage ';
+        }
+        print '">';
+        print '<a href="contest.php">Contest</a>';
+        print '</li>';
+        
+        print '<li class="';
+        if ($path_parts['filename'] == "Weather Detail") {
+            print ' activePage ';
+        }
+        print '">';
+        print '<a href="weather.php">Weather</a>';
+        print '</li>';
+        
+         print '<li class="';
+        if ($path_parts['filename'] == "Form") {
+            print ' activePage ';
+        }
+        print '">';
+        print '<a href="form.php">Join</a>';
+        print '</li>';
+
+        ?>
+
+
+    </ol>
+
+</nav>
