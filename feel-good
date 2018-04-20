@@ -10,8 +10,12 @@
     
    <body id="club1">
    
-   <p> Blah blah blha. </p>
+   <h1> Like grilled cheese? Like. </h1>
    <p> Blue blue blue. </p>
    
+   <h2> But Wait! THere's More! </h2>
+   <p> Feel Good has been around for ___ years and has raised over ______ in funds and donations. </p>
+   
+    <a href="feelgood-order.php"> Order Now! </a>
    
    
