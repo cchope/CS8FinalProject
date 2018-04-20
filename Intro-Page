@@ -11,14 +11,15 @@
     
     <body>
     <ul>
-            <li><a href=".php"> The developers. </a></li>
+            <li><a href="developers.php"> The developers. </a></li>
     </ul>
     
     <h1> Clubs/Organizations </h1>
       
         <ol>
-          <li><a href=" .php"> FeelGood </a></li>
-          <li><a href=" .php"> InterVarsity </a></li>
+          <li><a href="feel-good.php"> FeelGood </a></li>
+          <li><a href="intervarsity.php"> InterVarsity </a></li>
+          <li><a href=" .php"> Club 3 </a></li>
         </ol>
     </body>
 </html> 
