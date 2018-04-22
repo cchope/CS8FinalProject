@@ -18,37 +18,29 @@
         print '</li>';
 
         print '<li class="';
-        if ($path_parts['filename'] == "News") {
+        if ($path_parts['filename'] == "feel-good") {
             print ' activePage ';
         }
         print '">';
-        print '<a href=".php">News</a>';
+        print '<a href="feel-good.php"> Feel-Good</a>';
         print '</li>';
 
         print '<li class="';
-        if ($path_parts['filename'] == "Contest") {
+        if ($path_parts['filename'] == "amnesty") {
             print ' activePage ';
         }
         print '">';
-        print '<a href="contest.php">Contest</a>';
+        print '<a href="amnesty.php">Amnesty International</a>';
         print '</li>';
         
         print '<li class="';
-        if ($path_parts['filename'] == "Weather Detail") {
+        if ($path_parts['filename'] == "outingclub") {
             print ' activePage ';
         }
         print '">';
-        print '<a href="weather.php">Weather</a>';
+        print '<a href="outingclub.php"> Outing Club</a>';
         print '</li>';
         
-         print '<li class="';
-        if ($path_parts['filename'] == "Form") {
-            print ' activePage ';
-        }
-        print '">';
-        print '<a href="form.php">Join</a>';
-        print '</li>';
-
         ?>
 
 
