@@ -3,7 +3,8 @@
 
 <? 
 include("top.php");
-incldue("head.php");
+include("head.php");
+include("nav.php");
 >
 
     <head>
