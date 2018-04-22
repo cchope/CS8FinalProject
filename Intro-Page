@@ -1,6 +1,11 @@
 <!DOCTYPE HTML>
 <html lang="en">
 
+<? 
+include("top.php");
+incldue("head.php");
+>
+
     <head>
         <title> Delivery On Campus </title>
         <meta charset="utf-8">
@@ -24,3 +29,9 @@
     </body>
 </html> 
 ><
+
+
+<? 
+include("footer.php");
+>
+
