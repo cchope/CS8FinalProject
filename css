@@ -1,0 +1,319 @@
+
+/* ----------------------------- LAB 2 -----------------------------  */
+* { 
+    font-family: "Courier New";
+    color: indigo;
+
+}
+
+h1 {
+    font-size: 30pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: aliceblue;
+    margin: auto;
+    width: 90%; 
+}
+
+p {
+   font-size: 15pt;
+   text-indent: 3em; 
+   font-style: italic;
+   font-family: "Courier New"; 
+}
+
+figure img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+a{
+  padding: 2px;  
+}
+
+a:hover {
+    background-color: bisque;
+    border-bottom: 3px solid lightcoral;
+    padding: 0px;
+    
+}
+
+.SeaIce h1 a {
+    background-color: lavender;
+}
+
+.SeaIce figcaption {
+    text-align: center;
+}
+
+.danville figcaption {
+    text-align: center;
+}
+
+/* ----------------------------- LAB 3 -----------------------------  */
+
+#lab3 li:nth-child(odd), #contest article li:nth-child(odd){
+    background-color:  cadetblue;
+    
+    
+}
+
+#lab3 li:nth-child(even), #contest article li:nth-child(even){
+    background-color: cornflowerblue;
+    
+}
+
+#lab3 li, #contest li {
+    padding:.4em;
+}
+
+#lab3 ul li, ol li,#contest ul li {
+    padding: .3em 0 .3em 0;
+}
+
+/* ----------------------------- LAB 4 -----------------------------  */
+
+img {
+    max-width: 100%;
+}
+
+.roundedCornersSmall {
+    border-radius: 0.4em;
+}
+
+#lab4 figure, #art figure{
+    border:thin solid black;
+}
+
+.fiftyPercent {
+    width: 50%;
+    text-align: center;
+    padding: 2em;
+    margin: 1em;
+}
+
+.animated {
+    background-color: darkgrey;
+}
+
+.animated figcaption {
+    color: lightgrey;
+}
+
+.transparent {
+    background-color: darkgrey;
+}
+
+.transparent figcaption {
+   color: darkblue;
+}
+
+#lab4 body, #art body {
+    background-color:silver;
+}
+
+#lab4 p, #art p {
+    color: darkgray;
+}
+
+
+/* ----------------------------- LAB 5 -----------------------------  */
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px dashed black;
+    padding: .5em;
+}
+
+tr:nth-child(odd) {
+    background-color: darkturquoise;
+    
+}
+
+tr:nth-child(even){
+    background-color: pink; 
+}
+
+tr:hover {
+    background-color: azure; 
+}
+
+/* ----------------------------- Lab 6 -----------------------------  */
+#lab6 nav a:link {
+    background-color: #fff;
+    color: #009;
+    text-decoration: none;
+}
+
+#lab6 nav a:hover {
+    text-decoration: underline;
+}
+
+#lab6 nav ol li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 3em;
+    width: 12em;
+}
+
+#lab6 nav ol {
+    padding-left: 0;
+}
+
+.activepage {
+    /* background-color: whitesmoke; */
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    box-shadow: 0.3em 0.3em 0.3em grey;
+}
+
+
+/* ----------------------------- Lab 8 -----------------------------  */
+
+
+
+
+/* ----------------------------- NAV -----------------------------  */
+nav ol li {
+    display: inline-block;
+    border-color: indigo;
+    border-style: dotted;
+    list-style-type: none;
+    text-align: center;
+    width: 12em;
+}
+
+nav ol {
+    margin: 0px auto;
+    padding-left: 0;
+}
+
+nav a {
+    font-size: 24px;
+}
+
+nav a:hover {
+    background-color: lavender;
+    padding: 0px;
+    
+}
+
+
+
+/* ----------------------------- FOOTER -----------------------------  */
+footer {
+    clear: both;
+}
+footer p {
+    font-size: 12px;
+}
+
+/* ----------------------------- FORM SECTION -----------------------------  */
+#form form {
+    font: bold 0.5em Times;
+    max-width: 40em;
+}
+fieldset {
+    border: 2px solid #00498e;
+    clear: both;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+label {
+    color: #005cb3;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+legend {
+    font-size: 14px;
+}
+
+.form-heading {
+    border-bottom: 2px solid #ddd;
+    font-size: 1.25em;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 1.75em;
+    padding-bottom: 0.4em;
+}
+
+.check-field {
+    margin: 0 0 0 0 ;
+    text-align: center;
+}
+
+.radio-field {
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+
+.text-field {
+    display: block;
+    margin: 0 0 1.2em;
+    padding-right: 0.5em;
+    padding-top: 0.75em;
+    text-align: left;
+    width: 11em;
+}
+
+#form input, #form textArea, #form select {
+    box-sizing: border-box;
+    border: 2px solid #C2C2C2;
+    box-shadow: 2px 2px 4px #EBEBEB;
+    border-radius: 3px;
+    padding: 1em;
+    margin-left: 6em;
+    outline: none;
+}
+
+
+#form input .radio, #form textArea .radio, #form select .radio{
+    box-sizing: border-box;
+    border: 2px solid #C2C2C2;
+    box-shadow: 2px 2px 4px #EBEBEB;
+    border-radius: 3px;
+    padding: 1em;
+    outline: none;
+}
+
+
+
+#form input:focus, #form textArea:focus, #form select:focus  {
+    border: 1px solid #0C0;
+}
+
+#form input[type=submit]{
+    background: #005cb3 no-repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px #dadada;
+    color: #fff;
+    margin: 1em;
+    padding: 0.8em 1.4em;
+}
+    
+.buttons legend {
+    display: none;
+}
+
+/* style the errors in the form so they are visible */
+.mistake {
+    color: #fff;
+    background-color: #800;
+    border: thin solid #000;
+    
+}
+
+#errors ol li {
+    color: #ff5555;
+}
