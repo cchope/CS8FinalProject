@@ -1,5 +1,10 @@
 <!DOCTYPE HTML>
 <html lang="en">
+<? 
+include("top.php");
+include("head.php");
+include("nav.php");
+>
 
     <head>
         <title> Feel Good </title>
@@ -19,3 +24,6 @@
     <a href="feelgood-order.php"> Order Now! </a>
    
    
+<? 
+include("footer.php");
+>
