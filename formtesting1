@@ -3,6 +3,19 @@
           
           
           ///for campuses and dorms///
+          
+           <p>
+                <label class="required check-field" for="flavor"> Type of Cookies </label>
+                <select name="cookies">
+                    <option value="choco">Chocolate Chips </option>
+                    <option value="sugar">Sugar Cookies </option>
+                    <option value="fudge"> Fudge </option>
+                    <option value="oatmeal"> Oatmeal Raisins </option>
+                </select>
+                
+            </p>
+          
+          
           <p>
                 <label class="required check-field" for="on-campus"> Campus  </label>
                 <select name="campus">
@@ -13,22 +26,24 @@
                 </select>
                 
            </p>
+           ///// for atheltic///// 
            <label class="required check-field" for="campus"> Campus  </label>
-           <select name="Dorms" size="4" disabled="disabled">
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
+           <select name="athletic" size="4" disabled="disabled">
+                <option value="living-learning"> L/L </option>
+                <option value="h/m"> Harris/Millis </option>
+                <option value="uhn"> U-Heights North </option>
+                <option value="uhs"> U-Heights South </option>
+                <option value="mat"> MAT </option>
             </select>
             
-            <p>
-                <label class="required check-field" for="flavor"> Type of Cookies </label>
-                <select name="cookies">
-                    <option value="choco">Chocolate Chips </option>
-                    <option value="sugar">Sugar Cookies </option>
-                    <option value="fudge"> Fudge </option>
-                    <option value="oatmeal"> Oatmeal Raisins </option>
-                </select>
-                
-            </p>
+            //// redstone//////
+            label class="required check-field" for="campus"> Campus  </label>
+           <select name="athletic" size="4" disabled="disabled">
+                <option value="cwp"> Christie/Wright/Patterson </option>
+                <option value="wdw"> Wings/Davis/Wilks </option>
+                <option value="msh"> Mason/Simpson/Hamitltion </option>
+                <option value="coolidge"> Coolidge </option>
+               
+            </select>
+           
            
