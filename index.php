@@ -28,6 +28,8 @@ include('top.php');
           <li><a href="amnesty.php"> Amnesty International </a></li>
            <li><a href="outinglclub.php"> The Outing Club </a></li>
         </ol>
+    <h1> Goodies that will be delivered by Delivery On Campus </h1>    
+    
  
 <? 
 include("footer.php");
