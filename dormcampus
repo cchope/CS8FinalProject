@@ -23,7 +23,7 @@ $dormERROR = false;
     
     if($dorm != "L/L" AND $dorm != "Harris-Millis" AND $dorm != "U-Heights North" AND $dorm != "U-Heights South" AND $dorm != "MAT" AND $dorm != "Christ-Wright-Patterson" AND $dorm != "Wing-Davis-Wilks" AND $dorm != "Mason-Simpson-Hamilton" AND $dorm != "Coolidge" AND $dorm != "Central-Campus Residence Hall" AND $dorm != "Redstrone Hall" AND $dorm != "Converse Hall" AND $dorm = "Hunt" AND $dorm != "McAuley" AND $dorm != "McCann" AND $dorm != "Mercy" AND $dorm != "Ready" AND $dorm != "Richardson" AND $dorm != "Sichel" AND $dorm != "Jeanne Mance" ){
         $errorMsg[] = "Please choose a grilled cheese type";
-        $regionERROR = true;
+        $dormERROR = true;
     }
   
   
@@ -76,3 +76,67 @@ $dormERROR = false;
             Central Campus </label>
             </p>
         </fieldset> 
+        
+                <fieldset  class="listbox <?php if ($dormERROR) print ' mistake'; ?>">
+        <legend> Which dorm do you live in? </legend>
+        <select id="lstDorm" 
+                name="lstDorm" 
+                tabindex="520" >
+            <option <?php if($dorm=="L/L") print " selected "; ?>
+                value="L/L"> L/L </option>
+
+            <option <?php if($dorm=="Harris-Millis") print " selected "; ?>
+                value="Harris-Millis"> Harris-Millis</option>
+
+            <option <?php if($dorm=="U-Heights North") print " selected "; ?>
+                value="U-Heights North"> U-Heights North </option>
+            
+            <option <?php if($dorm=="U-Heights South") print " selected "; ?>
+                value="U-Heights South"> U-Heights South </option>
+            
+            <option <?php if($dorm=="Christ-Wright-Patterson") print " selected "; ?>
+                value="Christ-Wright-Patterson"> Christ-Wright-Patterson </option>
+            
+            <option <?php if($dorm=="Wing-Davis-Wilks") print " selected "; ?>
+                value="Wing-Davis-Wilks"> Wing-Davis-Wilks </option>
+            
+            <option <?php if($dorm=="Mason-Simpson-Hamilton") print " selected "; ?>
+                value="Mason-Simpson-Hamilton"> Mason-Simpson-Hamilton </option>
+            
+            <option <?php if($dorm==" Coolidge") print " selected "; ?>
+                value=" Coolidge">  Coolidge </option>
+            
+            <option <?php if($dorm=="Central-Campus Residence Hall") print " selected "; ?>
+                value="Central-Campus Residence Hall"> Central-Campus Residence Hall </option>
+            
+            <option <?php if($dorm=="Redstone Hall") print " selected "; ?>
+                value="Redstone Hall"> Redstone Hall </option>
+            
+            <option <?php if($dorm=="Converse Hall") print " selected "; ?>
+                value="Converse Hall"> Converse Hall </option>
+                           
+           <option <?php if($dorm=="Hunt") print " selected "; ?>
+                value="Hunt"> Hunt </option>
+    
+           <option <?php if($dorm=="McAuley") print " selected "; ?>
+                value="McAuley"> McAuley </option>
+            
+           <option <?php if($dorm=="Mercy") print " selected "; ?>
+                value="Mercy"> Mercy </option>
+               
+           <option <?php if($dorm=="McCann") print " selected "; ?>
+                value="McCann"> McCann </option>
+                 
+           <option <?php if($dorm=="Ready") print " selected "; ?>
+                value="Ready"> Ready </option>
+           
+            <option <?php if($dorm=="Richardson") print " selected "; ?>
+                value="Richardson"> Richardson </option>
+            
+            <option <?php if($dorm=="Sichel") print " selected "; ?>
+                value="Sichel"> Sichel</option>
+            
+            <option <?php if($dorm=="Jeanne Mance") print " selected "; ?>
+                value="Jeanne Mance"> Jeanne Mance </option>       
+        </select>
+</fieldset>
