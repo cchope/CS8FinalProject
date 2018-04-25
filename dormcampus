@@ -1,0 +1,78 @@
+    $campusERROR= false;
+$dormERROR = false;
+
+
+
+    
+    
+    $campus = htmlentities($_POST["radCampus"], ENT_QUOTES, "UTF-8");
+    $dataRecord[] = $campus;
+    
+    $dorm = htmlentities($_POST["lstDorm"], ENT_QUOTES, "UTF-8");
+    $dataRecord[] = $dorm;
+    
+    
+    
+    
+    
+    
+    if($campus != "Athletic Campus" AND $campus!="Redstone Campus" AND $campus != "Trinity Campus" AND $campus != "Central Campus"){
+        $errorMsg[] = "Please choose a campus";
+        $campusError = true;
+    }
+    
+    if($dorm != "L/L" AND $dorm != "Harris-Millis" AND $dorm != "U-Heights North" AND $dorm != "U-Heights South" AND $dorm != "MAT" AND $dorm != "Christ-Wright-Patterson" AND $dorm != "Wing-Davis-Wilks" AND $dorm != "Mason-Simpson-Hamilton" AND $dorm != "Coolidge" AND $dorm != "Central-Campus Residence Hall" AND $dorm != "Redstrone Hall" AND $dorm != "Converse Hall" AND $dorm = "Hunt" AND $dorm != "McAuley" AND $dorm != "McCann" AND $dorm != "Mercy" AND $dorm != "Ready" AND $dorm != "Richardson" AND $dorm != "Sichel" AND $dorm != "Jeanne Mance" ){
+        $errorMsg[] = "Please choose a grilled cheese type";
+        $regionERROR = true;
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  <fieldset class="radio <?php if($campusERROR) print 'mistake'; ?>">
+                    <legend> What campus do you live in? </legend>
+                    <p>
+                        <label class="radio-field">
+                        <input type="radio"
+                               id="radAthleticCampus"
+                               name="radCampus"
+                               value="Athletic Campus"
+                               tabindex="572"
+                               <?php if($campus == "Athletic Campus") echo 'checked="checked" '; ?>>
+           Athletic Campus </label>
+            </p>
+              <p>
+                        <label class="radio-field">
+                        <input type="radio"
+                               id="radRedstoneCampus"
+                               name="radCampus"
+                               value="Redstone Campus"
+                               tabindex="582"
+                               <?php if($campus == "Redsone Campus") echo 'checked="checked" '; ?>>
+            Redstone Campus </label>
+            </p>
+               <p>
+                        <label class="radio-field">
+                        <input type="radio"
+                               id="radTrinityCampus"
+                               name="radCampus"
+                               value="Trinity Campus"
+                               tabindex="582"
+                               <?php if($campus == "Trinity Campus") echo 'checked="checked" '; ?>>
+           Trinity Campus </label>
+            </p>
+               <p>
+                        <label class="radio-field">
+                        <input type="radio"
+                               id="radCentralCampus"
+                               name="radCampus"
+                               value="Central Campus"
+                               tabindex="582"
+                               <?php if($campus == "Central Campus") echo 'checked="checked" '; ?>>
+            Central Campus </label>
+            </p>
+        </fieldset> 
