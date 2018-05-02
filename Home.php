@@ -16,9 +16,21 @@ your finger tips and orders arrive within 20 minutes. </p>
 
 
 <h2> Clubs involved </h2> 
-<p>We have collaborated with four clubs Intervarsity, Feel Good, The Outing Club, and Alana Gear.  These clubs are all selling different
-   foods for your consumption.   </p>
-
+<p>We have collaborated with four clubs already to help spread the love and great taste across the campus. Some of these clubs and organziations include Intervarsity, Feel Good, The Outing Club, and Alana Gear. 
+   They each have made food, swwets and some delectable treats for any campus and UVM student that they can help. 
+    
+    For example, Intervarsity is out and about, baking sheets of cookies, chcolatee chip to snickerdoodles. Our own on--campus Christain misnrty group bakes and they can bake well! They usually get overcrowed in orders for their cookies, some of which they also give out for some that could not afford even a half dozen. 
+    Truly a group with big hearts and even sweeter cookies!
+    
+    
+    Another favorite for feeding the campus is Alana Gear. Not only do they know how to hike, climb and bblaze them forest trails, but they also know how 
+    
+    
+    But please do not think that we will only keep just to these few groups. 
+   We hope to include as many other that want to join our site. We'd love to add on the list of clubs that would like to have a site easy to access for ordering and delivery. 
+   
+    
+    
 <img src="images/intervarsity.jpeg" alt="Intervarsity Group photo">
 
 <?php 
