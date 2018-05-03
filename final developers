@@ -1,0 +1,34 @@
+<?php
+include 'top.php';
+?>
+   
+   <h1> Our First, Our Manager: Stanhope Nwosu </h1>
+   <img src="images/croppedStan.jpg" alt="" class="stan">
+   <p> This here is the project manager, Stanhope Nwosu. Stanhope is an up and coming junior who is about to enter the wonderful realm of Computer Science. He, originally coming into this University as a Biological Science major, he realized he wanted more to do. He wanted to learn how to build and start his own kind of programs and games. This started as a small interest but came into a bigger idea as time went on.
+   He is an avid fan of  most games and media, mainly PlayStation games like Borderlands. He also knows how to play a few instruments as well, such as the trumpet, recorder, piano and some harmonica. 
+   He hails, born and raised, from the good ol' Bronx, New York. An avid fan of most music, he loves to listen and make more of his own play lists most of the time. 
+   An open book, our manager is one that does not force or take charge, but involves the entire group in ways that try to incorporate our ideas and voices.
+   Lets think about the designs, and mash the parts we all can agree and would like to see made into reality was his first action as the project manager.
+    </p>
+
+   
+   <h1> Next Up is The Wonderful Web Designer: Eddie Travieso</h1>
+   <img src="images/newEddie.jpg" alt="" class="eddie">
+   <p> Eddie Travieso is from an under privileged neighborhood in Bronx, NY.  Growing up working with computers was a fun hobby
+   for him and soon would become his future career.  As a Computer Science major and hopefully future I.T, he has come a long way
+   from being a just a kid from The Bronx.  His hobbies include basketball, drawing, writing, and coding.  After he finishes
+   his four years of college Eddie will move onto Grad School and hopefully get his masters. </p>
+   
+   
+   <h1> And Last But Not the Least: Clasby Chope!</h1>
+   <p> Clasby Chope is an aspiring software engineer from Boston, MA. 
+   She is currently a sophomore at UVM studying Computer Science.
+   In the future she hopes to work in the technology field at a company where she can program and problem solve everyday. 
+   She hopes to use her technological skills to solve many of the worlds inequalities because she believes that many of the problems that humanity is facing can be solved by the powers of creative solutions that are created by new and innovative technology.
+   Clasby loves going to school in Burlington because she believes it is one of the most amazing cities in the world. 
+   Not only is Burlington such a quirky and vibrant community, but it also is nestled between two mountain ranges, the Green Mountains and the Adirondacks, and the beautiful Lake Champlain. 
+   In her free time, you can find Clasby biking, running, hiking, and skiing in the great outdoors of Vermont. 
+   Additionally, she loves to read mysteries and short stories, draw, paint, and play Ukulele. 
+   This summer, she hopes to learn how to skateboard, and improve her ukulele skills.  </p> 
+   
+   
