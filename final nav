@@ -1,0 +1,71 @@
+<!-- ######################     Main Navigation   ########################## -->
+<nav>
+   
+    <ul>
+
+
+        <?php
+         //Repeat this if block for each menu item 
+         //designed to give the current page a class but also allows
+         //you to have more classes if you need them
+        print '<li class="';
+        if ($path_parts['filename'] == "home") {
+           print ' activePage ';
+        }
+        print '">';
+        print '<a href="home.php">Home</a>';
+        print '</li>';
+   
+        
+        
+        /* example of repeating */
+        print '<li class="';
+        if ($path_parts['filename'] == "grilled_cheese") {
+          print ' activePage ';
+        }
+         print '">';
+        print '<a href="grilled_cheese.php">Feel Good</a>';
+         print '</li>';
+         
+         
+        print '<li class="';
+        if ($path_parts['filename'] == "nachos") {
+          print ' activePage ';
+        }
+        print '">';
+        print '<a href="nachos.php">Outing</a>';
+        print '</li>';
+        
+          print '<li class="';
+        if ($path_parts['filename'] == "donuts") {
+          print ' activePage ';
+        }
+         print '">';
+        print '<a href="donuts.php">Alana Gear</a>';
+        print '</li>';
+        
+        print '<li class="';
+        if ($path_parts['filename'] == "cookies") {
+          print ' activePage ';
+        }
+        print '">';
+        print '<a href="cookies.php">Intervarsity</a>';
+        print '</li>';
+        
+         print '<li class="';
+        if ($path_parts['filename'] == "developers") {
+          print ' activePage ';
+        }
+        print '">';
+        print '<a href="developers.php">Developers  </a>';
+        print '</li>';
+
+  
+        ?>
+
+
+    </ul>
+ 
+</nav> 
+
+
